@@ -11,6 +11,7 @@ void c_esp::draw( ) {
 
 	this->players( );
 }
+
 void c_esp::players( ) {
 	auto local_player = i::entity_list->get_client_entity( i::engine->get_local_player( ) );
 
